@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<iTeroExport Version="5.0">
+	<RxInfo>
+		<OrderID>999999999</OrderID>
+		<OrderCode>07XUZ8MH</OrderCode>
+		<Modeled>True</Modeled>
+		<FilePath/>
+		<ExportTime>12/12/2024 17:27:25</ExportTime>
+		<UtcOffset>0</UtcOffset>
+		<LabTechnician/>
+		<Patient>Cynthia, Ladwig</Patient>
+		<UniquePatientIdentifier>3bb83d53-65ef-43b0-a383-762a7293b0d2</UniquePatientIdentifier>
+		<ChartNumber/>
+		<Doctor>Null</Doctor>
+		<DoctorLicense>Null</DoctorLicense>
+		<DoctorID>Null</DoctorID>
+		<LabName>NDX Davis Dental Lab</LabName>
+		<LabID>479</LabID>
+		<PracticeShipToAddress>Null</PracticeShipToAddress>
+		<DueDate>12/23/2024</DueDate>
+		<ScanRange>
+			<UpperRange FromAdaId="11" ToAdaId="16"/>
+			<LowerRange FromAdaId="17" ToAdaId="22"/>
+		</ScanRange>
+		<CaaSVersion>0.9.7.14</CaaSVersion>
+		<iTeroVersion>2.15.0.35</iTeroVersion>
+		<ExportScheme>3Shape</ExportScheme>
+		<SchemeInfo>Exported files are compatible with 3Shape Dental System version 2008/1 or later</SchemeInfo>
+		<ToothShadeSystem>VITA Lumin</ToothShadeSystem>
+		<Procedure>4</Procedure>
+		<ProcedureType>0</ProcedureType>
+		<Denture>
+			<DentureShadeSystem>-1</DentureShadeSystem>
+			<DentureTeethShade/>
+			<DentureGingivalShade/>
+			<DentureMould/>
+			<DentureStage/>
+			<UpperJaw>False</UpperJaw>
+			<LowerJaw>False</LowerJaw>
+			<DentureCopyScan>False</DentureCopyScan>
+		</Denture>
+		<TreatmentStage>0</TreatmentStage>
+		<TeethBuccalTransforms/>
+		<Bridges/>
+		<Notes>Null</Notes>
+		<Local_iDE ProductionCenterID="-1"/>
+		<iDE_Order ProductionCenterID="0" CADCAMSystemTypeID="-1" SelectedProductionCenterName="" SelectedCadcamSystemName=""/>
+		<CA_Order ProductionCenterID="0" SelectedProductionCenterName=""/>
+		<DoctorCompanyID>112714</DoctorCompanyID>
+	</RxInfo>
+	<RxDefines>
+		<RestorationTypes>
+			<Type Id="2" Name="Crown"/>
+		</RestorationTypes>
+		<Procedure>
+			<Type Id="4" Name="Fixed Restorative"/>
+		</Procedure>
+		<ProcedureType/>
+		<Specification>
+			<Type Id="1" Name="Full Contour"/>
+		</Specification>
+		<ImplantBasedRestoration/>
+		<AbutmentType/>
+		<PonticDesign/>
+		<DentureShadeSystem>
+			<Type Id="-1" Name="Other"/>
+		</DentureShadeSystem>
+		<DentureGingivalShade/>
+		<DentureMould/>
+		<DentureStage/>
+		<TreatmentStage/>
+		<BridgeTypes/>
+		<ToothInBridgeTypes/>
+		<Materials>
+			<Type Id="2010" Name="Ceramic: Translucent Zirconia"/>
+		</Materials>
+		<ImplantTypes/>
+	</RxDefines>
+	<ExportedObjects>
+		<Object ObjectType="Surface" SubType="Jaw" JawId="Lower" FileName="lower_jaw_with_ditch_#227036517.stl"/>
+		<Object ObjectType="Surface" SubType="Jaw" JawId="Upper" FileName="upper_jaw_with_ditch_#227036517.stl"/>
+	</ExportedObjects>
+	<ActualUsedTransforms>
+		<Transformation>0.000000 -1.000000 0.000000 1.473943 0.000000 0.000000 1.000000 -6.370500 -1.000000 0.000000 0.000000 12.680452 0.000000 0.000000 0.000000 1.000000</Transformation>
+	</ActualUsedTransforms>
+	<ScanBodyRecognitionData/>
+</iTeroExport>

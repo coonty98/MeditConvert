@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<iTeroExport Version="2.3">
+	<RxInfo>
+		<CaseId>999999999</CaseId>
+		<FilePath/>
+		<ExportTime>12/12/2024 17:27:25</ExportTime>
+		<UtcOffset>0</UtcOffset>
+		<LabTechnician/>
+		<Patient>Cynthia, Ladwig</Patient>
+		<ChartNumber/>
+		<Doctor>Null</Doctor>
+		<DoctorLicense>Null</DoctorLicense>
+		<DoctorID>Null</DoctorID>
+		<LabName>NDX Davis Dental Lab</LabName>
+		<LabID>479</LabID>
+		<PracticeShipToAddress>Null</PracticeShipToAddress>
+		<DueDate>12/23/2024</DueDate>
+		<ScanRange>
+			<UpperRange FromAdaId="11" ToAdaId="16"/>
+			<LowerRange FromAdaId="17" ToAdaId="22"/>
+		</ScanRange>
+		<CaaSVersion>0.9.7.14</CaaSVersion>
+		<iTeroVersion>2.15.0.35</iTeroVersion>
+		<ExportScheme>3Shape</ExportScheme>
+		<SchemeInfo>Exported files are compatible with 3Shape Dental System version 2008/1 or later</SchemeInfo>
+		<ToothShadeSystem>VITA Lumin</ToothShadeSystem>
+		<TeethBuccalTransforms/>
+		<Bridges/>
+		<Notes>Null</Notes>
+		<Local_iDE ProductionCenterID="-1"/>
+		<iDE_Order ProductionCenterID="0" CADCAMSystemTypeID="-1" SelectedProductionCenterName="" SelectedCadcamSystemName=""/>
+		<CA_Order ProductionCenterID="0" SelectedProductionCenterName=""/>
+	</RxInfo>
+	<RxDefines>
+		<RestorationTypes>
+			<Type Id="2" Name="Crown"/>
+		</RestorationTypes>
+		<BridgeTypes>
+			<Type Id="1" Name="Traditional"/>
+		</BridgeTypes>
+		<ToothInBridgeTypes>
+			<Type Id="-1" Name="N/R"/>
+		</ToothInBridgeTypes>
+		<Materials>
+			<Material Id="2009" Name="Ceramic: Zirconia"/>
+		</Materials>
+		<ImplantTypes>
+			<Type Id="1" Name="TissueLevel NN" ScanBodyMfg="Straumann" ScanBodyMfgExtID="" ImplantManufacturerName="Straumann"/>
+		</ImplantTypes>
+	</RxDefines>
+	<ExportedObjects>
+		<Object ObjectType="Surface" SubType="Jaw" JawId="Lower" FileName="lower_jaw_with_ditch_#227036517.stl"/>
+		<Object ObjectType="Surface" SubType="Jaw" JawId="Upper" FileName="upper_jaw_with_ditch_#227036517.stl"/>
+	</ExportedObjects>
+	<ActualUsedTransforms>
+		<Transformation>0.000000 -1.000000 0.000000 1.473943 0.000000 0.000000 1.000000 -6.370500 -1.000000 0.000000 0.000000 12.680452 0.000000 0.000000 0.000000 1.000000</Transformation>
+	</ActualUsedTransforms>
+	<ScanBodyRecognitionData/>
+</iTeroExport>
