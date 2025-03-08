@@ -1,4 +1,6 @@
-﻿$parentPath = $PSScriptroot
+﻿#$parentPath = $PSScriptroot
+
+$parentPath = Get-Location
 
 ###Convert margin files from xyz to pts.
 Get-ChildItem -Path $parentPath -Recurse *..xyz | Rename-Item -NewName { $_.Name -replace '\..xyz$','.pts' }
@@ -40,8 +42,8 @@ $Hash_USFDI = @{
 }
 
 ###Get path of master folder and list of Medit Files.
-$combinePath = Join-Path -path $parentPath -ChildPath "Medit_Export_Master\*"
-$MeditFiles = Get-ChildItem -Path $parentPath -Exclude 'Medit_Export_Master', 'MeditConvert.ps1'
+$combinePath = Join-Path -path $parentPath -ChildPath "!Medit Convert\Medit_Export_Master\*"
+$MeditFiles = Get-ChildItem -Path $parentPath -Exclude '!Medit Convert', 'MeditConvert.ps1', 'MeditConvert.exe', 'Imported', '!DONE'
 
 ###Loop through each Medit folder in the parent folder.
 foreach ($MeditFile in $MeditFiles){

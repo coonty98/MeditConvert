@@ -72,7 +72,7 @@
 		<BridgeTypes/>
 		<ToothInBridgeTypes/>
 		<Materials>
-			<Type Id="2010" Name="Ceramic: Translucent Zirconia"/>
+			<Material Id="2009" Name="Ceramic: Zirconia" />
 		</Materials>
 		<ImplantTypes/>
 	</RxDefines>
